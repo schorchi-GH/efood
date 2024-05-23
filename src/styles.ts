@@ -15,7 +15,7 @@ export const GlobalCSS = createGlobalStyle`
   font-family: Roboto, sans-serif;
 }
 body{
-  background-color: ${cores.palhaClara};
+  background-color: ${cores.bege};
   color: ${cores.vermelho};
 }
 `
