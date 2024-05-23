@@ -14,7 +14,7 @@ const RestaurantList = ({ restaurants }: Props) => (
                 <Product
                     key={restaurants.id}
                     RestaurantTitle={restaurants.RestaurantTitle}
-                    RestaurantRate={restaurants.RestaurantRate}
+                    RestaurantRating={restaurants.RestaurantRate}
                     RestaurantDetails={restaurants.RestaurantDetails}
                     RestaurantPhoto={restaurants.RestaurantPhoto}
                     RestaurantCategories={restaurants.RestaurantCategories}

@@ -5,7 +5,7 @@ export const cores = {
     rosa: '#FFEBD9',
     branco: '#FFFFFF',
     dourado: '#FFB930',
-    palhaClara: '#FFF8F2'
+    bege: '#FFF8F2'
 }
 export const GlobalCSS = createGlobalStyle`
 *{
