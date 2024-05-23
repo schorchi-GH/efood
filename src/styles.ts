@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const cores = {
-  vermelho: '#E66767',
-  rosa: '#FFEBD9',
-  branco: '#FFFFFF',
-  dourado: '#FFB930',
-  palhaClara: '#FFF8F2'
+    vermelho: '#E66767',
+    rosa: '#FFEBD9',
+    branco: '#FFFFFF',
+    dourado: '#FFB930',
+    palhaClara: '#FFF8F2'
 }
 export const GlobalCSS = createGlobalStyle`
 *{
