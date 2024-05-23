@@ -9,7 +9,7 @@ const currentYear = new Date().getFullYear()
 
 const Footer = () => (
     <FooterStyle>
-        <Branding src={logo} alt="Logo do efood" />
+        <Branding src={logo} alt="Logo da efood" />
         <SocialMedia>
             <img src={facebook} alt="Facebook" />
             <img src={instagram} alt="Instagram" />

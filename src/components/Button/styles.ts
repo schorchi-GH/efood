@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import { cores } from '../../styles'
 import { Link } from 'react-router-dom'
-
 import { Props } from '.'
 
 export const BotaoContainer = styled(Link)<Props>`
