@@ -1,26 +1,14 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { GlobalCSS } from './styles'
-import Home from '../src/pages/Home'
-import Perfil from '../src/pages/Perfil'
-
-const rotas = createBrowserRouter([
-    {
-        path: '/',
-        element: <Home />
-    },
-    {
-        path: '/perfil',
-        element: <Perfil />
-    }
-])
+import Rotas from './routes'
 
 function App() {
     return (
-        <>
+        <BrowserRouter>
             <GlobalCSS />
-            <RouterProvider router={rotas} />
-        </>
+            <Rotas />
+        </BrowserRouter>
     )
 }
 export default App
