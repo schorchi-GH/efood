@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 import { cores } from '../../styles'
 
 export const Card = styled.div`
@@ -24,11 +25,14 @@ export const Description = styled.p`
     margin: 8px 8px 0px 8px;
 `
 
-export const AddCartButton = styled.button`
+export const AddCartButton = styled(Link)`
     background-color: ${cores.rosa};
     color: ${cores.vermelho};
     border: none;
-    padding: 4px 0;
+    padding: 4px 7px;
     margin: 8px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
 `

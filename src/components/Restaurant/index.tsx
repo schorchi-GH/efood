@@ -21,7 +21,7 @@ const Restaurant = ({
     RestaurantToLink
 }: Props) => (
     <Card>
-        <img src={RestaurantPhoto} alt="Hioki sushi" />
+        <img src={RestaurantPhoto} alt="" />
         <Categories>
             {RestaurantCategories.map((info) => (
                 <Button key={info}>{info}</Button>

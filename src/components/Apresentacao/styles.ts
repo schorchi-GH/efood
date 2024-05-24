@@ -1,9 +1,7 @@
 import styled from 'styled-components'
-import ApresentacaoFundo from '../../assets/apresentacao-fundo.png'
 import { cores } from '../../styles'
 
 export const ApresentacaoContainer = styled.div`
-    background-image: url(${ApresentacaoFundo});
     height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +10,6 @@ export const ApresentacaoContainer = styled.div`
         margin: 0 auto;
     }
 `
-
 export const ApresentacaoCategoria = styled.p`
     color: ${cores.branco};
     font-size: 32px;
