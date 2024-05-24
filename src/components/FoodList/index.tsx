@@ -10,15 +10,24 @@ export type Props = {
 const FoodList = ({ foods }: Props) => (
     <Container>
         <List>
-            {foods.map((food) => (
-                <Food
-                    key={food.id}
-                    FoodPhoto={food.foodPhoto}
-                    FoodTitle={food.foodTitle}
-                    FoodDescription={food.foodDescription}
-                    FoodPhotoAlt={food.foodPhotoAlt}
-                />
-            ))}
+            {foods.map(
+                ({
+                    id,
+                    foodPhoto,
+                    foodTitle,
+                    foodDescription,
+                    foodPhotoAlt
+                }) => (
+                    <li key={id}>
+                        <Food
+                            FoodPhoto={foodPhoto}
+                            FoodTitle={foodTitle}
+                            FoodDescription={foodDescription}
+                            FoodPhotoAlt={foodPhotoAlt}
+                        />
+                    </li>
+                )
+            )}
         </List>
     </Container>
 )
