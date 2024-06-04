@@ -5,6 +5,13 @@ import RestaurantList from '../../components/RestaurantList'
 
 import { useEffect, useState } from 'react'
 
+export type Order = {
+    id: number
+    nome: string
+    foto: string
+    preco: number
+}
+
 export type Restaurant = {
     id: number
     titulo: string
