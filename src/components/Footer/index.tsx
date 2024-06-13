@@ -21,6 +21,7 @@ const Footer = () => (
             estabelecimento contratado. <br /> Todos direitos reservados efood
             &copy; {currentYear}
         </Disclaimer>
+        <p>made with ❤️ by SCHORCHI</p>
     </FooterStyle>
 )
 

@@ -9,8 +9,8 @@ type CartState = {
 
 const initialState: CartState = {
     items: [],
-    isOpen: false,
-    pedido: []
+    pedido: [],
+    isOpen: false
 }
 
 const cartSlice = createSlice({
@@ -37,5 +37,5 @@ const cartSlice = createSlice({
     }
 })
 
-export const { open, close, addItem, removeItem } = cartSlice.actions
+export const { addItem, removeItem, open, close } = cartSlice.actions
 export default cartSlice.reducer
